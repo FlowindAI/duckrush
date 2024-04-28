@@ -1,8 +1,4 @@
-# DuckRush
-
-[中文说明](/READMECN.md)
-
-![duckrush](/assets/logo.jpg)
+# Open Search Engine
 
 A simple and fast backend API based on Hono that can search for relevant content on the internet using keywords and convert it into a format suitable for LLM processing. Supports deployment on *Cloudflare Workers*.
 
@@ -41,16 +37,16 @@ By default, no authentication measures are enabled, and direct requests can be m
 If you need to enable the authentication mechanism, modify the `wrangler.toml` file in the root directory of the project by uncommenting the line
 
 ```text
-# token = "duckrush"
+# token = "xxx"
 ```
 
 and changing it to
 
 ```text
-token = "duckrush"
+token = "xxx"
 ```
 
-where `duckrush` is the authentication token that you have customized. Then, the front end should submit it using the `Bearer` method.
+where `xxx` is the authentication token that you have customized. Then, the front end should submit it using the `Bearer` method.
 
 ## Request Parameters
 
